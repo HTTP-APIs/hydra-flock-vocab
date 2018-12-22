@@ -10,7 +10,7 @@
       "@id": "hydra:expects", 
       "@type": "@id"
     }, 
-    "hydra": "http://www.w3.org/ns/hydra/core#", 
+    "hydra": "https://raw.githubusercontent.com/HydraCG/Specifications/master/spec/latest/core/core.jsonld#", 
     "label": "rdfs:label", 
     "method": "hydra:method", 
     "possibleStatus": "hydra:possibleStatus", 
@@ -319,14 +319,14 @@
       "title": "Datastream"
     }, 
     {
-      "@id": "http://www.w3.org/ns/hydra/core#Collection", 
+      "@id": "https://raw.githubusercontent.com/HydraCG/Specifications/master/spec/latest/core/core.jsonld#Collection", 
       "@type": "hydra:Class", 
       "description": null, 
       "supportedOperation": [], 
       "supportedProperty": [
         {
           "@type": "SupportedProperty", 
-          "property": "http://www.w3.org/ns/hydra/core#member", 
+          "property": "https://raw.githubusercontent.com/HydraCG/Specifications/master/spec/latest/core/core.jsonld#member", 
           "readonly": false, 
           "required": null, 
           "title": "members", 
@@ -336,7 +336,7 @@
       "title": "Collection"
     }, 
     {
-      "@id": "http://www.w3.org/ns/hydra/core#Resource", 
+      "@id": "https://raw.githubusercontent.com/HydraCG/Specifications/master/spec/latest/core/core.jsonld#Resource", 
       "@type": "hydra:Class", 
       "description": null, 
       "supportedOperation": [], 
@@ -348,7 +348,7 @@
       "@type": "hydra:Class", 
       "description": "A collection of command", 
       "label": "CommandCollection", 
-      "subClassOf": "http://www.w3.org/ns/hydra/core#Collection", 
+      "subClassOf": "https://raw.githubusercontent.com/HydraCG/Specifications/master/spec/latest/core/core.jsonld#Collection", 
       "supportedOperation": [
         {
           "@id": "_:command_collection_retrieve", 
@@ -378,7 +378,7 @@
         {
           "@type": "SupportedProperty", 
           "description": "The command", 
-          "property": "http://www.w3.org/ns/hydra/core#member", 
+          "property": "https://raw.githubusercontent.com/HydraCG/Specifications/master/spec/latest/core/core.jsonld#member", 
           "readonly": false, 
           "required": false, 
           "title": "members", 
