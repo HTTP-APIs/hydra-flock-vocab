@@ -1,4 +1,7 @@
-{
+"""
+Hydra API Vocab - Hydra Ecosystem Flock Demo."""
+
+flock_doc = {
     "@context": {
         "ApiDocumentation": "hydra:ApiDocumentation",
         "description": "hydra:description",
