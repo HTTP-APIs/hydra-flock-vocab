@@ -81,7 +81,7 @@
                 {
                     "@type": "SupportedProperty",
                     "property": "http://auto.schema.org/speed",
-                    "readable": "ture",
+                    "readable": true,
                     "required": true,
                     "title": "Speed",
                     "writeable": true
